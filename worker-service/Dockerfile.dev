@@ -1,0 +1,14 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+RUN npm install -g nodemon
+
+COPY package*.json ./
+RUN npm install
+
+COPY . .
+
+EXPOSE 3001
+
+CMD ["npx", "nodemon", "-L", "--watch", "src", "--ext", "ts", "--exec", "node --no-warnings --loader ts-node/esm src/worker.ts"]
