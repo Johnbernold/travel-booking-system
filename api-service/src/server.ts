@@ -2,8 +2,7 @@ import dotenv from "dotenv";
 dotenv.config();
 import express from "express";
 import redisClient from "./config/redisClient.js";
-
-
+import {getConnectionDB}  from "./config/db.js";
 const app = express();
 
 app.get("/", (req, res) => {
@@ -20,6 +19,7 @@ app.get("/redis", async (req, res) => {
   }
 });
 
+await getConnectionDB();
 
 app.listen(3000, () => {
   console.log("Server is running on port 3000");
