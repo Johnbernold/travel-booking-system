@@ -1,26 +1,14 @@
-import { createClient } from "redis";
+import IORedis from "ioredis";
 
-const redisClient = createClient({
-    socket: {
-        host: process.env.REDIS_HOST || "redis",
-        port: parseInt(process.env.REDIS_PORT || "6379"),
-    },
+const redisConnection = new IORedis({
+  host: process.env.REDIS_HOST || "redis",
+  port: parseInt(process.env.REDIS_PORT || "6379"),
+  retryStrategy(times) {
+    return Math.min(times * 500, 5000);
+  },
 });
 
-redisClient.on("connect", () => {
-  console.log("✅ Connected to Redis successfully! in 3001 worker");
-});
+redisConnection.on("connect", () => console.log("✅ Worker connected to Redis"));
+redisConnection.on("error", (err) => console.error("❌ Redis error in worker:", err));
 
-redisClient.on("error", (err) => {
-  console.error("❌ Redis connection error:", err);
-});
-
-(async () => {
-  try {
-    await redisClient.connect();
-  } catch (err) {
-    console.error("Redis connection failed:", err);
-  }
-})();
-
-export default redisClient;
+export default redisConnection;
