@@ -5,7 +5,7 @@ import bcrypt from "bcrypt";
 import { generateOtp } from "../utils/generateOtp.js";
 import { UserModel } from "../models/user.model.js";
 import { ApiError } from "../utils/apiError.js";
-
+import sendEmailJobQueue from "../queues/jobs/sendEmailJob.js";
 
 export const AuthService = {
 
@@ -30,8 +30,16 @@ export const AuthService = {
 
         const newUser = await UserModel.create(user);
 
+        await sendEmailJobQueue({
+            type: "otp",
+            to: email,
+            subject: "OTP for Travel Booking System",
+            payload: {
+                name,
+                otp
+            },
+        });
+
         return newUser;
     },
-    
-
 }

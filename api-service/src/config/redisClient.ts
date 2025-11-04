@@ -1,10 +1,12 @@
-import { createClient } from "redis";
+import IORedis from "ioredis";
 
-const redisClient = createClient({
-    socket: {
-        host: process.env.REDIS_HOST || "redis",
-        port: parseInt(process.env.REDIS_PORT || "6379"),
-    },
+const redisClient = new IORedis({
+  host: process.env.REDIS_HOST || "redis",
+  port: parseInt(process.env.REDIS_PORT || "6379"),
+  retryStrategy(times) {
+    // Reconnect gradually up to 5s
+    return Math.min(times * 500, 5000);
+  },
 });
 
 redisClient.on("connect", () => {
@@ -15,12 +17,5 @@ redisClient.on("error", (err) => {
   console.error("❌ Redis connection error:", err);
 });
 
-(async () => {
-  try {
-    await redisClient.connect();
-  } catch (err) {
-    console.error("Redis connection failed:", err);
-  }
-})();
 
 export default redisClient;
