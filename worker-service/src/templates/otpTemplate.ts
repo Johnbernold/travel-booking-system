@@ -1,5 +1,6 @@
 
-export const otpTemplate = (name: string, otp: string) => `
+export const otpTemplate = (name: string, otp: string) => {
+    return `
     <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -25,3 +26,4 @@ export const otpTemplate = (name: string, otp: string) => `
     </body>
     </html>
 `
+}

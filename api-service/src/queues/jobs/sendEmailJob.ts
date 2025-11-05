@@ -8,7 +8,7 @@ interface emailJobData {
 }
 
 const sendEmailJobQueue = async (job: emailJobData) => {
-    await emailQueue.add("sendEmailJob", job, {
+    await emailQueue.add("otpEmailJob", job, {
         attempts: 3,
         backoff: {
             type: "exponential",
@@ -16,6 +16,7 @@ const sendEmailJobQueue = async (job: emailJobData) => {
         },
         removeOnComplete: true,
     });
+    console.log(`🚀 Job added to queue: ${job.type}`);
 };
 
 export default sendEmailJobQueue;

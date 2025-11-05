@@ -3,6 +3,7 @@ dotenv.config();
 import express from "express";
 import redisClient from "./config/redisClient.js";
 import {getConnectionDBWorker}  from "./config/db.js";
+import "./workers/emailWorker.js"
 
 const app = express();
 const PORT = process.env.PORT || 3001;
