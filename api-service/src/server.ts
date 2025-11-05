@@ -6,6 +6,8 @@ import {getConnectionDB}  from "./config/db.js";
 import authRouter from "./routes/auth.routes.js";
 import { setupSwagger } from "./config/swagger.js";
 import { errorHandler } from "./middlewares/errorHandler.js";
+import cookiePrase from "cookie-parser";
+import cors from "cors";
 import { ApiError } from "./utils/apiError.js";
 
 const app = express();
@@ -14,6 +16,14 @@ setupSwagger(app);
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cookiePrase());
+const corsOptions = {
+  origin:  process.env.CLIENT_URL || "http://localhost:5173",
+  optionsSuccessStatus: 200,
+  Credentials: true,
+};
+
+app.use(cors({ ...corsOptions }));
 
 app.get("/", (req, res) => {
   res.send("Hello World!");

@@ -12,6 +12,7 @@ const dbApi = mysql2.createPool({
   connectionLimit: 10,
   waitForConnections: true,
   dateStrings: true,
+  enableKeepAlive: true,
 });
 
 export async function getConnectionDB() {
