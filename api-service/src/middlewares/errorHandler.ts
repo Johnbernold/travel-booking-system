@@ -1,5 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import { ApiError } from "../utils/apiError.js";
+import logger from "../config/logger.js";
 
 export const errorHandler = (err: Error | ApiError, req: Request, res: Response, next: NextFunction) => {
   //console.error("❌ Error:", err);
@@ -17,5 +18,8 @@ export const errorHandler = (err: Error | ApiError, req: Request, res: Response,
     message,
     ...(process.env.NODE_ENV === "development" && { stack: err.stack }),
   });
+
+  logger.error("❌ Error:", err);
+
   
 };

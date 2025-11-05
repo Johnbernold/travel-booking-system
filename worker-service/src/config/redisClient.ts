@@ -1,4 +1,5 @@
 import IORedis from "ioredis";
+import logger from "./logger.js";
 
 const redisClient = new IORedis({
   host: process.env.REDIS_HOST || "redis",
@@ -10,7 +11,14 @@ const redisClient = new IORedis({
   },
 });
 
-redisClient.on("connect", () => console.log("✅ Worker connected to Redis"));
-redisClient.on("error", (err) => console.error("❌ Redis error in worker:", err));
+redisClient.on("connect", () => {
+  logger.info("✅ Worker connected to Redis successfully!");
+  console.log("✅ Worker connected to Redis successfully!");
+});
+
+redisClient.on("error", (err) => {
+  logger.error("❌ Redis connection error in worker:", err);
+  console.error("❌ Redis connection error in worker:", err);
+});
 
 export default redisClient;

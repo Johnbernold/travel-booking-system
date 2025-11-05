@@ -1,6 +1,7 @@
 import mysql2 from "mysql2/promise";
 import dotenv from "dotenv";    
 dotenv.config();
+import logger from "./logger.js";
 
 const dbWorker = mysql2.createPool({
   host: process.env.MYSQL_HOST || "localhost",
@@ -17,9 +18,11 @@ export async function getConnectionDBWorker() {
     try {
         const connection = await dbWorker.getConnection(); // test the connection
         console.log("Connected to database in worker");
+        logger.info("Connected to database in WORKER_service");
         connection.release(); // release it back to the pool
     } catch (err) {
         console.error("Error connecting to database: ", err);
+        logger.error("Error connecting to database: ", err);
     }
 }
 

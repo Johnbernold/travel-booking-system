@@ -1,0 +1,10 @@
+2025-11-05 07:57:20 info: ⚙️ Job 10 is active
+2025-11-05 07:57:20 info: 🚀 Job started for otp
+2025-11-05 07:57:24 info: 📧 Email sent to johnbernold315@example.com and Id is <e5d76d4e-52e8-a590-7455-a3027db4df6f@travelbookingsystem.com>
+2025-11-05 07:57:24 info: ✅ Job 10 completed
+2025-11-05 09:43:24 info: ⚙️ Job 11 is active
+2025-11-05 09:43:24 info: 🚀 Job started for otp
+2025-11-05 09:43:27 info: 📧 Email sent to johnbernold315@gmail.com and Id is <299a3a20-43f5-b229-c71c-64c89447eefe@travelbookingsystem.com>
+2025-11-05 09:43:27 info: ✅ Job 11 completed
+2025-11-05 09:50:34 info: ✅ Worker connected to Redis successfully!
+2025-11-05 09:50:35 info: Connected to database in WORKER_service
