@@ -8,7 +8,7 @@ export interface RegisterRequestBody  {
 }
 
 export interface LoginRequestBody  {
-    id: number;
+    id?: number;
     email: string;
     password: string;
 }
@@ -19,7 +19,7 @@ export interface User extends RowDataPacket {
     email: string;
     password: string;
     otp?: string;
-    otp_expiry?: Date;
+    otp_expiry?: Date | string | null;
     is_verified?: boolean;
     created_at?: Date;
     updated_at?: Date;
@@ -31,4 +31,16 @@ export interface Newuser {
     password: string;
     otp?: string;
     otp_expiry?: Date;
+}
+
+export interface OTPVerification extends RowDataPacket {
+    id?: number;
+    email: string;
+    otp: string;
+    otp_expiry: Date;
+}
+
+export interface VerifyOtpRequestBody  {
+    email: string;
+    otp: string;
 }

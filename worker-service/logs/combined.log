@@ -8,3 +8,17 @@
 2025-11-05 09:43:27 info: ✅ Job 11 completed
 2025-11-05 09:50:34 info: ✅ Worker connected to Redis successfully!
 2025-11-05 09:50:35 info: Connected to database in WORKER_service
+2025-11-05 10:01:13 info: ✅ Worker connected to Redis successfully!
+2025-11-05 10:01:13 info: Connected to database in WORKER_service
+2025-11-05 12:54:26 info: ⚙️ Job 12 is active
+2025-11-05 12:54:26 info: 🚀 Job started for otp
+2025-11-05 12:54:33 info: 📧 Email sent to johnbernold315@gmail.com and Id is <4ab8fad6-144d-d7c6-f90b-073561519c77@travelbookingsystem.com>
+2025-11-05 12:54:33 info: ✅ Job 12 completed
+2025-11-05 13:06:57 info: ⚙️ Job 13 is active
+2025-11-05 13:06:57 info: 🚀 Job started for otp
+2025-11-05 13:07:04 info: 📧 Email sent to johnbernold315@gmail.com and Id is <6df1fd1e-3edf-54b4-c303-c6351a3822ad@travelbookingsystem.com>
+2025-11-05 13:07:04 info: ✅ Job 13 completed
+2025-11-05 15:26:59 info: ⚙️ Job 14 is active
+2025-11-05 15:26:59 info: 🚀 Job started for otp
+2025-11-05 15:27:05 info: 📧 Email sent to johnbernold315@gmail.com and Id is <f39b7d19-9afe-5057-0c2b-0bf9c638b3e8@travelbookingsystem.com>
+2025-11-05 15:27:05 info: ✅ Job 14 completed

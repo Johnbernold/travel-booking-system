@@ -33,6 +33,7 @@ const swaggerOptions = {
      description: "Authentication related endpoints",
    },
  ],
+ withCredentials: true,
  apis : ["./src/routes/*.ts"],
 };
 
