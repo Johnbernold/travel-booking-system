@@ -21,6 +21,7 @@ services:
       dockerfile: Dockerfile.dev
     volumes:
       - ./worker-service:/app
+      - ./worker-service/logs:/app/logs
     ports:
       - "3001:3001"
     environment:

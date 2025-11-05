@@ -1,6 +1,7 @@
 import mysql2 from "mysql2/promise";
 import dotenv from "dotenv";    
 dotenv.config();
+import logger from "./logger.js";
 
 const dbApi = mysql2.createPool({
   host: process.env.MYSQL_HOST || "localhost",
@@ -16,9 +17,11 @@ const dbApi = mysql2.createPool({
 export async function getConnectionDB() {
     try {
         const connection = await dbApi.getConnection(); // test the connection
+        logger.info("Connected to database in API_service");
         console.log("Connected to database");
         connection.release(); // release it back to the pool
     } catch (err) {
+        logger.error("Error connecting to database: ", err);
         console.error("Error connecting to database: ", err);
     }
 }
