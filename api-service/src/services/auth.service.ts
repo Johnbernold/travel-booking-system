@@ -6,7 +6,7 @@ import { generateOtp } from "../utils/generateOtp.js";
 import { UserModel } from "../models/user.model.js";
 import { ApiError } from "../utils/apiError.js";
 import sendEmailJobQueue from "../queues/jobs/sendEmailJob.js";
-import { generateAccessToken, generateRefreshToken } from "../utils/jwt.js";
+import { generateAccessToken, generateRefreshToken, verifyAccessToken, verifyRefreshToken } from "../utils/jwt.js";
 
 export const AuthService = {
 
@@ -110,4 +110,20 @@ export const AuthService = {
             }
         };
     },
+
+    async refreshTokenService(refreshToken: string) {
+
+            const decoded = verifyRefreshToken(refreshToken) as User;
+
+            const checkValue = await UserModel.findByEmail(decoded.email);
+            if (!checkValue) {
+                throw new ApiError(  404, "User not found");
+            }
+        
+            return {
+                accessToken: generateAccessToken(decoded),
+            };
+     
+    }
+
 }
