@@ -4,6 +4,7 @@ import express from "express";
 import redisClient from "./config/redisClient.js";
 import {getConnectionDB}  from "./config/db.js";
 import authRouter from "./routes/auth.routes.js";
+import airportRouter from "./routes/airport.routes.js";
 import { setupSwagger } from "./config/swagger.js";
 import { errorHandler } from "./middlewares/errorHandler.js";
 import cookiePrase from "cookie-parser";
@@ -44,7 +45,7 @@ await getConnectionDB();
 
 //Adding all routes here
 app.use("/api/auth", authRouter);
-
+app.use("/api/airport", airportRouter);
 
 // catch-all 404 handler (fix)
 app.use((req, res) => {

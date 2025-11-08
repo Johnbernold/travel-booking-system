@@ -32,6 +32,10 @@ const swaggerOptions = {
      name: "auth",
      description: "Authentication related endpoints",
    },
+   {
+     name: "airports",
+     description: "Airport related endpoints",
+   },
  ],
  withCredentials: true,
  apis : ["./src/routes/*.ts"],
