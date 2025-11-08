@@ -70,7 +70,8 @@ export const loginController = async (req: Request, res: Response, next: NextFun
         const userInfo = await AuthService.loginUserService({email, password});
 
         const accessToken = userInfo.accessToken;
-        res.cookie("accessToken", accessToken, refreshTokenOptions);
+        const refreshToken = userInfo.refreshToken;
+        res.cookie("refreshToken", refreshToken, refreshTokenOptions);
 
         const result = {
             accessToken,
@@ -81,5 +82,20 @@ export const loginController = async (req: Request, res: Response, next: NextFun
     } catch (err) {
         next(err);
     }
-
 };
+
+export const refreshTokenController = async (req: Request, res: Response, next: NextFunction ) => {
+    const { refreshToken } = req.cookies;
+    console.log(refreshToken);
+    try{
+         if (!refreshToken) {
+        res.status(400).json(ApiResponse.error("Refresh token is not provided in cookies"));    
+        return;
+    }
+        const result = await AuthService.refreshTokenService(refreshToken);
+        res.status(200).json(ApiResponse.success(result, "New access token generated successfully"));
+    } catch (err) {
+        next(err);
+    }
+}
+

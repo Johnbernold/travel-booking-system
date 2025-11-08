@@ -109,3 +109,82 @@
 2025-11-05 16:24:59 info: Connected to database in API_service
 2025-11-05 16:26:25 info: ✅ Connected to Redis successfully!
 2025-11-05 16:26:25 info: Connected to database in API_service
+2025-11-05 16:33:05 info: ✅ Connected to Redis successfully!
+2025-11-05 16:33:06 info: Connected to database in API_service
+2025-11-07 09:14:58 info: ✅ Connected to Redis successfully!
+2025-11-07 09:14:58 info: Connected to database in API_service
+2025-11-07 09:21:14 info: ✅ Connected to Redis successfully!
+2025-11-07 09:21:15 info: Connected to database in API_service
+2025-11-07 09:21:53 info: ✅ Connected to Redis successfully!
+2025-11-07 09:21:54 info: Connected to database in API_service
+2025-11-07 09:22:40 info: ✅ Connected to Redis successfully!
+2025-11-07 09:22:41 info: Connected to database in API_service
+2025-11-07 09:24:21 info: ✅ Connected to Redis successfully!
+2025-11-07 09:24:22 info: Connected to database in API_service
+2025-11-07 09:24:41 info: ✅ Connected to Redis successfully!
+2025-11-07 09:24:42 info: Connected to database in API_service
+2025-11-07 09:27:47 info: ✅ Connected to Redis successfully!
+2025-11-07 09:27:48 info: Connected to database in API_service
+2025-11-07 09:28:48 info: ✅ Connected to Redis successfully!
+2025-11-07 09:28:49 info: Connected to database in API_service
+2025-11-07 09:29:24 info: ✅ Connected to Redis successfully!
+2025-11-07 09:29:25 info: Connected to database in API_service
+2025-11-07 09:31:20 info: ✅ Connected to Redis successfully!
+2025-11-07 09:31:20 info: Connected to database in API_service
+2025-11-07 09:32:29 info: ✅ Connected to Redis successfully!
+2025-11-07 09:32:29 info: Connected to database in API_service
+2025-11-07 09:33:40 info: ✅ Connected to Redis successfully!
+2025-11-07 09:33:41 info: Connected to database in API_service
+2025-11-07 09:35:13 info: ✅ Connected to Redis successfully!
+2025-11-07 09:35:14 info: Connected to database in API_service
+2025-11-07 09:36:30 info: ✅ Success: User registered successfully
+2025-11-07 09:37:37 info: ✅ Success: OTP verified successfully
+2025-11-07 09:38:06 info: ✅ Success: Login successful
+2025-11-07 09:38:29 error: ❌ Error: Refresh token is not provided in cookies
+2025-11-07 09:39:31 info: ✅ Connected to Redis successfully!
+2025-11-07 09:39:32 info: Connected to database in API_service
+2025-11-07 09:42:57 info: ✅ Connected to Redis successfully!
+2025-11-07 09:42:58 info: Connected to database in API_service
+2025-11-07 09:45:15 info: ✅ Connected to Redis successfully!
+2025-11-07 09:45:16 info: Connected to database in API_service
+2025-11-07 09:46:59 info: ✅ Connected to Redis successfully!
+2025-11-07 09:46:59 info: Connected to database in API_service
+2025-11-07 09:47:47 info: ✅ Connected to Redis successfully!
+2025-11-07 09:47:47 info: Connected to database in API_service
+2025-11-07 09:48:42 info: ✅ Connected to Redis successfully!
+2025-11-07 09:48:42 info: Connected to database in API_service
+2025-11-07 09:50:23 info: ✅ Connected to Redis successfully!
+2025-11-07 09:50:24 info: Connected to database in API_service
+2025-11-07 09:52:34 info: ✅ Connected to Redis successfully!
+2025-11-07 09:52:34 info: Connected to database in API_service
+2025-11-07 09:52:56 error: ❌ Error: User not found
+2025-11-07 09:53:17 error: ❌ Error: User not found
+2025-11-07 09:53:28 error: ❌ Error: User not found
+2025-11-07 09:53:32 error: ❌ Error: User not found
+2025-11-07 09:53:58 info: ✅ Success: Login successful
+2025-11-07 09:54:21 error: ❌ Error: Refresh token is not provided in cookies
+2025-11-07 09:54:34 error: ❌ Error: Refresh token is not provided in cookies
+2025-11-07 10:03:38 error: ❌ Error: read ECONNRESET
+2025-11-07 10:11:21 info: ✅ Connected to Redis successfully!
+2025-11-07 10:11:22 info: Connected to database in API_service
+2025-11-07 10:12:15 info: ✅ Connected to Redis successfully!
+2025-11-07 10:12:16 info: Connected to database in API_service
+2025-11-07 10:12:29 error: ❌ Error: User not found
+2025-11-07 10:12:46 info: ✅ Success: Login successful
+2025-11-07 10:12:56 error: ❌ Error: Refresh token is not provided in cookies
+2025-11-07 10:14:48 info: ✅ Connected to Redis successfully!
+2025-11-07 10:14:49 info: Connected to database in API_service
+2025-11-07 10:15:38 info: ✅ Connected to Redis successfully!
+2025-11-07 10:15:39 info: Connected to database in API_service
+2025-11-07 10:16:08 info: ✅ Success: Login successful
+2025-11-07 10:16:20 info: ✅ Success: Refresh token successful
+2025-11-07 11:03:58 info: ✅ Connected to Redis successfully!
+2025-11-07 11:03:59 info: Connected to database in API_service
+2025-11-07 11:06:48 info: ✅ Connected to Redis successfully!
+2025-11-07 11:06:49 info: Connected to database in API_service
+2025-11-07 11:08:41 info: ✅ Connected to Redis successfully!
+2025-11-07 11:08:41 info: Connected to database in API_service
+2025-11-07 11:08:44 info: ✅ Success: Refresh token successful
+2025-11-07 11:10:02 info: ✅ Connected to Redis successfully!
+2025-11-07 11:10:02 info: Connected to database in API_service
+2025-11-07 11:10:10 info: ✅ Success: New access token generated successfully

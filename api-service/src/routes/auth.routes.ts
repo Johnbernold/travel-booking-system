@@ -1,7 +1,8 @@
 import express from "express";
 import { Router } from "express";
-import { register, verifyOtpController, resendOTPController, loginController } from "../controllers/auth.controller.js";
+import { register, verifyOtpController, resendOTPController, loginController, refreshTokenController } from "../controllers/auth.controller.js";
 import { verify } from "crypto";
+import { refreshTokenOptions } from "../utils/refreshTokenOptions.js";
 
 const router = Router();
 
@@ -154,5 +155,22 @@ router.post("/resend-otp", resendOTPController)
  *        description: Internal server error    
  */
 router.post("/login", loginController)
+
+/**
+ * @swagger
+ * /api/auth/refresh-token:
+ *  post:
+ *    summary: Refresh token taken from cookies
+ *    tags:
+ *      - auth
+ *    responses:
+ *      200:
+ *        description: Refresh token successful
+ *      400:
+ *        description: Bad request
+ *      500:
+ *        description: Internal server error    
+ */
+router.post("/refresh-token", refreshTokenController)
 
 export default router;
