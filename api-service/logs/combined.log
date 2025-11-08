@@ -1,0 +1,43 @@
+2025-11-08 12:23:11 info: ✅ Connected to Redis successfully!
+2025-11-08 12:23:11 info: Connected to database in API_service
+2025-11-08 12:50:10 info: ✅ Connected to Redis successfully!
+2025-11-08 12:50:12 info: Connected to database in API_service
+2025-11-08 12:56:04 info: ✅ Connected to Redis successfully!
+2025-11-08 12:56:05 info: Connected to database in API_service
+2025-11-08 12:58:24 info: ✅ Connected to Redis successfully!
+2025-11-08 12:58:25 info: Connected to database in API_service
+2025-11-08 12:59:18 info: ✅ Connected to Redis successfully!
+2025-11-08 12:59:18 info: Connected to database in API_service
+2025-11-08 13:07:59 info: ✅ Connected to Redis successfully!
+2025-11-08 13:08:03 info: Connected to database in API_service
+2025-11-08 13:18:06 info: ✅ Connected to Redis successfully!
+2025-11-08 13:18:07 info: Connected to database in API_service
+2025-11-08 13:19:48 info: ✅ Connected to Redis successfully!
+2025-11-08 13:19:48 info: Connected to database in API_service
+2025-11-08 13:22:45 info: ✅ Connected to Redis successfully!
+2025-11-08 13:22:45 info: Connected to database in API_service
+2025-11-08 13:24:12 info: ✅ Connected to Redis successfully!
+2025-11-08 13:24:13 info: Connected to database in API_service
+2025-11-08 13:27:52 info: ✅ Connected to Redis successfully!
+2025-11-08 13:27:53 info: Connected to database in API_service
+2025-11-08 13:29:54 info: ✅ Connected to Redis successfully!
+2025-11-08 13:29:56 info: Connected to database in API_service
+2025-11-08 13:31:39 info: ✅ Connected to Redis successfully!
+2025-11-08 13:31:40 info: Connected to database in API_service
+2025-11-08 16:33:27 error: ❌ Error: Failed to create airline
+2025-11-08 16:37:03 info: ✅ Connected to Redis successfully!
+2025-11-08 16:37:04 info: Connected to database in API_service
+2025-11-08 16:46:46 error: ❌ Error: Failed to create airline
+2025-11-08 16:48:44 info: ✅ Connected to Redis successfully!
+2025-11-08 16:48:45 info: Connected to database in API_service
+2025-11-08 16:50:32 info: ✅ Success: Airline created successfully
+2025-11-08 17:04:56 error: ❌ Error: read ECONNRESET
+2025-11-08 17:05:00 info: ✅ Success: All airlines fetched successfully
+2025-11-08 17:07:50 info: ✅ Connected to Redis successfully!
+2025-11-08 17:07:51 info: Connected to database in API_service
+2025-11-08 17:08:05 info: ✅ Success: All airlines fetched successfully
+2025-11-08 17:08:17 info: ✅ Success: All airlines fetched successfully
+2025-11-08 17:08:28 info: ✅ Success: Success
+2025-11-08 17:08:41 info: ✅ Success: Airline deleted successfully
+2025-11-08 17:10:34 info: ✅ Connected to Redis successfully!
+2025-11-08 17:10:36 info: Connected to database in API_service
