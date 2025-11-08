@@ -103,6 +103,30 @@ const swaggerUiOptions = {
   swaggerOptions: {
     withCredentials: true, // enable cookies (for refresh-token flow)
   },
+ servers: [
+   { url: `${process.env.BASE_URL}/api-docs`, description: "Swagger UI" },
+ ],
+ components: {
+   securitySchemes: {
+     bearerAuth: {
+       type: "http",
+       scheme: "bearer",
+       bearerFormat: "JWT",
+     },
+   },
+ },
+ tags: [
+   {
+     name: "auth",
+     description: "Authentication related endpoints",
+   },
+   {
+     name: "airports",
+     description: "Airport related endpoints",
+   },
+ ],
+ withCredentials: true,
+ apis : ["./src/routes/*.ts"],
 };
 
 export const setupSwagger = (app: Express) => {
