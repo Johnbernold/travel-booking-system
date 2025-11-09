@@ -6,6 +6,8 @@ import {getConnectionDB}  from "./config/db.js";
 import authRouter from "./routes/auth.routes.js";
 import airportRouter from "./routes/airport.routes.js";
 import airlineRouter from "./routes/airline.routes.js";
+import airplaneRouter from "./routes/airplane.routes.js";
+
 import { setupSwagger } from "./config/swagger.js";
 import { errorHandler } from "./middlewares/errorHandler.js";
 import cookiePrase from "cookie-parser";
@@ -48,6 +50,8 @@ await getConnectionDB();
 app.use("/api/auth", authRouter);
 app.use("/api/airport", airportRouter);
 app.use("/api/airlines", airlineRouter);
+app.use("/api/airplanes", airplaneRouter);
+
 
 // catch-all 404 handler (fix)
 app.use((req, res) => {
