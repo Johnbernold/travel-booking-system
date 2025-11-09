@@ -1,6 +1,6 @@
 import { AirlineModel } from "../models/airline.models.js";
 import { Airline } from "../types/airline.types.js";
-import { uploadToS3 } from "../config/s3Client.js";
+import { uploadToS3 , deleteFromS3} from "../config/s3Client.js";
 import { ApiError } from "../utils/apiError.js";
 
 export const AirlineService = {
@@ -32,6 +32,16 @@ export const AirlineService = {
   },
 
   async deleteAirline(id: number) {
+
+    const airline = await AirlineModel.getById(id);
+    if (!airline) {
+      throw new ApiError(404, "Airline not found");
+    }
+
+    if(airline.logo_url){
+      await deleteFromS3(airline.logo_url);
+    }
+
     return await AirlineModel.deleteById(id);
   },
 };

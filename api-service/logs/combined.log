@@ -41,3 +41,21 @@
 2025-11-08 17:08:41 info: ✅ Success: Airline deleted successfully
 2025-11-08 17:10:34 info: ✅ Connected to Redis successfully!
 2025-11-08 17:10:36 info: Connected to database in API_service
+2025-11-09 07:59:40 info: ✅ Connected to Redis successfully!
+2025-11-09 07:59:41 info: Connected to database in API_service
+2025-11-09 10:01:10 info: ✅ Connected to Redis successfully!
+2025-11-09 10:01:12 info: Connected to database in API_service
+2025-11-09 10:03:27 info: ✅ Success: All airlines fetched successfully
+2025-11-09 10:03:39 error: ❌ Error: Airline not found
+2025-11-09 10:04:31 info: ✅ Success: Airline created successfully
+2025-11-09 10:04:42 info: ✅ Success: Success
+2025-11-09 10:04:51 info: 🗑️ Deleted file from S3: airlines/1762682669995_download.jpg
+2025-11-09 10:04:51 info: ✅ Success: Airline deleted successfully
+2025-11-09 10:05:17 info: ✅ Success: Airline created successfully
+2025-11-09 10:06:12 error: ❌ Error: Failed to create airline
+2025-11-09 10:06:39 error: ❌ Error: Failed to create airline
+2025-11-09 10:07:30 error: ❌ Error: Failed to create airline
+2025-11-09 10:08:21 info: ✅ Success: Airline created successfully
+2025-11-09 10:09:33 info: ✅ Success: Airline created successfully
+2025-11-09 10:19:03 info: ✅ Connected to Redis successfully!
+2025-11-09 10:19:04 info: Connected to database in API_service
