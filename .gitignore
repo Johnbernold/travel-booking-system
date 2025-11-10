@@ -1,6 +1,7 @@
+/target/
+
 api-service/node_modules
-worker-service/node_modules
-
-
 api-service/.env
+
+worker-service/node_modules
 worker-service/.env

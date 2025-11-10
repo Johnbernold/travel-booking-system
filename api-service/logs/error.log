@@ -1,1 +1,58 @@
 2025-11-09 14:48:34 error: ❌ Error: read ECONNRESET
+2025-11-10 07:53:31 error: ❌ Error: Authorization token missing
+2025-11-10 07:53:45 error: ❌ Error: User not found
+2025-11-10 07:54:29 error: ❌ Error: Flight not found
+2025-11-10 07:55:45 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 07:59:58 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 08:02:20 error: ❌ Error: Authorization token missing
+2025-11-10 08:02:57 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 08:05:12 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 08:11:23 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 08:19:45 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 08:20:18 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 08:29:26 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 08:30:01 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 08:37:02 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 08:48:03 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 08:48:37 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 08:50:07 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 08:52:24 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 08:52:27 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:04:34 error: ❌ Error: Authorization token missing
+2025-11-10 09:04:51 error: ❌ Error: read ECONNRESET
+2025-11-10 09:04:58 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:05:02 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:11:23 error: ❌ Error: Invalid or expired token
+2025-11-10 09:11:27 error: ❌ Error: Invalid or expired token
+2025-11-10 09:12:12 error: ❌ Error: Invalid or expired token
+2025-11-10 09:12:14 error: ❌ Error: Invalid or expired token
+2025-11-10 09:12:15 error: ❌ Error: Invalid or expired token
+2025-11-10 09:12:16 error: ❌ Error: Invalid or expired token
+2025-11-10 09:12:17 error: ❌ Error: Invalid or expired token
+2025-11-10 09:12:18 error: ❌ Error: Invalid or expired token
+2025-11-10 09:12:18 error: ❌ Error: Invalid or expired token
+2025-11-10 09:12:41 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:22:03 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:32:41 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:33:31 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:42:30 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:48:34 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:48:37 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:48:38 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:49:16 error: ❌ Error: Authorization token missing
+2025-11-10 09:49:48 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:49:53 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:49:54 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:49:55 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:49:56 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:53:33 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:53:36 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:53:41 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:53:42 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:58:51 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 09:59:42 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 10:04:12 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 10:04:14 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 10:04:15 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 10:04:16 error: ❌ Error: Unknown column 'NaN' in 'where clause'
+2025-11-10 10:04:36 error: ❌ Error: Unknown column 'NaN' in 'where clause'

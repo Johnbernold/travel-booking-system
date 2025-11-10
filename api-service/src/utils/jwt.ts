@@ -5,8 +5,21 @@ let JWT_REFRESH_SECRET  = process.env.JWT_SECRET || "default_secret";
 let JWT_SECRET = process.env.JWT_SECRET || "default_secret";
 
 
+interface JwtPayload {
+  id: number;
+  email: string;
+  name?: string;
+}
+
 export const generateAccessToken = (user: User) => {
-    const payload = {
+
+    console.log("user", typeof user.id);
+       
+    if (!user.id) {
+        throw new Error("User ID is missing");
+    }
+
+    const payload: JwtPayload = {
         id: user.id,
         email: user.email,
         name: user.name,
@@ -20,7 +33,11 @@ export const generateAccessToken = (user: User) => {
 };
 
 export const generateRefreshToken = (user: User) => {
-    const payload = {
+    if (!user.id) {
+        throw new Error("User ID is missing");
+    }
+
+    const payload: JwtPayload = {
         id: user.id,
         email: user.email,
         name: user.name,
