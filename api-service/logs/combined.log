@@ -1,0 +1,68 @@
+2025-11-09 11:07:49 info: ✅ Connected to Redis successfully!
+2025-11-09 11:07:50 info: Connected to database in API_service
+2025-11-09 11:14:52 info: ✅ Connected to Redis successfully!
+2025-11-09 11:14:53 info: Connected to database in API_service
+2025-11-09 11:17:05 info: ✅ Connected to Redis successfully!
+2025-11-09 11:17:06 info: Connected to database in API_service
+2025-11-09 11:20:45 info: ✅ Connected to Redis successfully!
+2025-11-09 11:20:45 info: Connected to database in API_service
+2025-11-09 11:23:48 info: ✅ Connected to Redis successfully!
+2025-11-09 11:23:48 info: Connected to database in API_service
+2025-11-09 11:30:48 info: ✅ Connected to Redis successfully!
+2025-11-09 11:30:49 info: Connected to database in API_service
+2025-11-09 11:35:09 info: ✅ Connected to Redis successfully!
+2025-11-09 11:35:10 info: Connected to database in API_service
+2025-11-09 12:25:13 info: ✅ Connected to Redis successfully!
+2025-11-09 12:25:14 info: Connected to database in API_service
+2025-11-09 12:39:15 info: ✅ Connected to Redis successfully!
+2025-11-09 12:39:16 info: Connected to database in API_service
+2025-11-09 12:42:29 info: ✅ Connected to Redis successfully!
+2025-11-09 12:42:29 info: Connected to database in API_service
+2025-11-09 12:45:51 info: ✅ Connected to Redis successfully!
+2025-11-09 12:45:52 info: Connected to database in API_service
+2025-11-09 12:46:58 info: ✅ Connected to Redis successfully!
+2025-11-09 12:46:59 info: Connected to database in API_service
+2025-11-09 12:50:36 info: ✅ Connected to Redis successfully!
+2025-11-09 12:50:37 info: Connected to database in API_service
+2025-11-09 13:49:38 info: ✅ Connected to Redis successfully!
+2025-11-09 13:49:38 info: Connected to database in API_service
+2025-11-09 13:59:15 info: ✅ Connected to Redis successfully!
+2025-11-09 13:59:15 info: Connected to database in API_service
+2025-11-09 14:00:28 info: ✅ Connected to Redis successfully!
+2025-11-09 14:00:29 info: Connected to database in API_service
+2025-11-09 14:00:38 info: ✅ Success: Flight created successfully
+2025-11-09 14:01:13 info: ✅ Success: All flights retrieved
+2025-11-09 14:03:53 info: ✅ Connected to Redis successfully!
+2025-11-09 14:03:54 info: Connected to database in API_service
+2025-11-09 14:04:18 info: ✅ Success: Flights found
+2025-11-09 14:34:46 info: ✅ Connected to Redis successfully!
+2025-11-09 14:34:47 info: Connected to database in API_service
+2025-11-09 14:34:59 info: ✅ Success: Flights found
+2025-11-09 14:35:01 info: ✅ Success: Flights found
+2025-11-09 14:35:13 info: ✅ Success: Flights found
+2025-11-09 14:35:50 info: ✅ Success: Flights found
+2025-11-09 14:39:59 info: ✅ Connected to Redis successfully!
+2025-11-09 14:40:00 info: Connected to database in API_service
+2025-11-09 14:41:30 info: ✅ Connected to Redis successfully!
+2025-11-09 14:41:31 info: Connected to database in API_service
+2025-11-09 14:48:34 error: ❌ Error: read ECONNRESET
+2025-11-09 14:49:15 info: ✅ Success: Flights found
+2025-11-09 14:49:59 info: ✅ Success: Flights found
+2025-11-09 14:54:46 info: ✅ Connected to Redis successfully!
+2025-11-09 14:54:47 info: Connected to database in API_service
+2025-11-09 14:54:53 info: ✅ Success: Flights found
+2025-11-09 14:55:06 info: ✅ Success: Flights found
+2025-11-09 14:55:14 info: ✅ Success: Flights found
+2025-11-09 14:55:20 info: ✅ Success: Flights found
+2025-11-09 14:55:26 info: ✅ Success: Flights found
+2025-11-09 14:57:55 info: ✅ Connected to Redis successfully!
+2025-11-09 14:57:56 info: Connected to database in API_service
+2025-11-09 15:06:39 info: ✅ Connected to Redis successfully!
+2025-11-09 15:06:41 info: Connected to database in API_service
+2025-11-09 15:14:54 info: ✅ Connected to Redis successfully!
+2025-11-09 15:14:56 info: Connected to database in API_service
+2025-11-09 15:15:49 info: ✅ Success: Flights found
+2025-11-09 15:16:10 info: ✅ Success: Flights found
+2025-11-09 15:16:33 info: ✅ Success: Flights found
+2025-11-09 15:17:26 info: ✅ Success: All flights retrieved
+2025-11-09 15:17:53 info: ✅ Success: Flight deleted successfully
