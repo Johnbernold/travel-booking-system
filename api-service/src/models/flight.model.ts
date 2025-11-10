@@ -87,4 +87,12 @@ export const FlightModel = {
     );
     if (result.affectedRows === 0) throw new ApiError(404, "Flight not found");
   },
+
+  async findById(id: number) {
+    const [rows] = await dbApi.query<Flight[]>(
+      "SELECT * FROM flights WHERE id = ?",
+      [id]
+    );
+    return rows[0];
+  },
 };
