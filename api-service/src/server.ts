@@ -7,6 +7,7 @@ import authRouter from "./routes/auth.routes.js";
 import airportRouter from "./routes/airport.routes.js";
 import airlineRouter from "./routes/airline.routes.js";
 import airplaneRouter from "./routes/airplane.routes.js";
+import flightRouter from "./routes/flight.routes.js";
 
 import { setupSwagger } from "./config/swagger.js";
 import { errorHandler } from "./middlewares/errorHandler.js";
@@ -51,6 +52,7 @@ app.use("/api/auth", authRouter);
 app.use("/api/airport", airportRouter);
 app.use("/api/airlines", airlineRouter);
 app.use("/api/airplanes", airplaneRouter);
+app.use("/api/flights", flightRouter);
 
 
 // catch-all 404 handler (fix)
